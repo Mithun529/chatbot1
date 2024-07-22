@@ -1,14 +1,15 @@
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 import streamlit as st
 import json
 import random
 import numpy as np
-import nltk
 import pickle
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
-nltk.download('punkt')
-nltk.download('wordnet')
 
 # Load necessary files
 lemmatizer = WordNetLemmatizer()
