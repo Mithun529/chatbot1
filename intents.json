@@ -1,0 +1,59 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?", "Hey", "Hola", "Hi there"],
+            "responses": ["Hello!", "Hi there!", "Hi! How can I help you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["Goodbye!", "See you later!", "Bye! Have a nice day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+        },
+        {
+            "tag": "software_issue",
+            "patterns": ["My computer is slow", "I can't connect to the internet", "My software is not working", "I am getting an error message", "My application keeps crashing", "How to fix a blue screen error"],
+            "responses": ["Try restarting your computer.", "Check your internet connection.", "Ensure your software is up to date.", "Reinstall the application.", "Please provide the error message for further assistance."]
+        },
+        {
+            "tag": "software_installation",
+            "patterns": ["How to install the software?", "I need help installing an application", "How to set up the program?", "Installation guide", "Install software"],
+            "responses": ["Download the installer from the official website.", "Run the installer and follow the instructions.", "Ensure you have the necessary permissions.", "Refer to the installation guide provided with the software."]
+        },
+        {
+            "tag": "password_reset",
+            "patterns": ["How do I reset my password?", "I forgot my password", "Can't log in", "Password recovery", "Reset my password"],
+            "responses": ["Click on the 'Forgot Password' link on the login page.", "Enter your email address to receive a reset link.", "Follow the instructions in the email to reset your password."]
+        },
+        {
+            "tag": "software_update",
+            "patterns": ["How to update the software?", "Update my application", "New version available", "Software upgrade", "Install the latest version"],
+            "responses": ["Go to the settings or help menu and select 'Check for updates'.", "Visit the official website to download the latest version.", "Ensure your system meets the requirements for the update.", "Follow the on-screen instructions to complete the update."]
+        },
+        {
+            "tag": "health_advice",
+            "patterns": ["I have a headache", "What should I do if I have a cold?", "How to treat a fever?", "Health tips", "Medical advice", "I feel unwell"],
+            "responses": ["Drink plenty of water and rest.", "Take over-the-counter medication if necessary.", "If symptoms persist, consult a healthcare professional.", "Maintain a healthy diet and exercise regularly."]
+        },
+        {
+            "tag": "appointment",
+            "patterns": ["How to book an appointment?", "I need to see a doctor", "Schedule a consultation", "Doctor's appointment", "Book a visit"],
+            "responses": ["Visit our website to book an appointment online.", "Call our clinic to schedule a consultation.", "Provide your details and preferred time for the appointment.", "You will receive a confirmation via email or phone."]
+        },
+        {
+            "tag": "emergency",
+            "patterns": ["I have a medical emergency", "Call an ambulance", "Urgent help needed", "What to do in an emergency?", "Need immediate assistance"],
+            "responses": ["Call emergency services immediately.", "Stay calm and follow the operator's instructions.", "Ensure you are in a safe location.", "Provide as much information as possible about the situation."]
+        },
+        {
+            "tag": "healthy_lifestyle",
+            "patterns": ["Tips for a healthy lifestyle", "How to stay fit?", "Diet and exercise advice", "Healthy living", "Wellness tips"],
+            "responses": ["Maintain a balanced diet rich in fruits and vegetables.", "Exercise regularly, at least 30 minutes a day.", "Get adequate sleep, around 7-8 hours per night.", "Stay hydrated by drinking plenty of water."]
+        }
+    ]
+}
